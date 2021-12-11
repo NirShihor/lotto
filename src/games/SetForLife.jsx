@@ -23,7 +23,7 @@ const SetForLife = () => {
 
     let lifeBall = [];
 
-    while (lifeBall.length < 2) {
+    while (lifeBall.length < 1) {
       var str = Math.floor(Math.random() * 12) + 1;
       lifeBall.indexOf(str) === -1 && lifeBall.push(str);
     }
