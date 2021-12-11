@@ -60,13 +60,10 @@ button {
 }
 
 .games {
-  width: 60vh;
+  min-width: 50%;
+  text-align: center;
+  align-items: center;
   margin: auto;
-}
-
-.game-results {
-  text-align: left;
-  margin-left: 5rem;
 }
 
 .space {
