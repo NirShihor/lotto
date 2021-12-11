@@ -23,7 +23,7 @@ const Thunderball = () => {
 
     let thunderBall = [];
 
-    while (thunderBall.length < 2) {
+    while (thunderBall.length < 1) {
       var str = Math.floor(Math.random() * 12) + 1;
       thunderBall.indexOf(str) === -1 && thunderBall.push(str);
     }
