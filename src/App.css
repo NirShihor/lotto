@@ -53,6 +53,7 @@ button {
 
 .thunderball {
   color: #e9d510;
+  margin-bottom: 5rem;
 }
 
 .thunderball button {
@@ -93,4 +94,10 @@ button {
 
 .fade-in-numbers {
   transition: opacity 1s ease;
+}
+
+@media only screen and (max-width: 500px) {
+  .games {
+    font-size: 1.2rem;
+  }
 }
