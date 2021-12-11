@@ -66,6 +66,12 @@ button {
   margin: auto;
 }
 
+@media only screen and (max-width: 500px) {
+  .games {
+    font-size: 1rem !;
+  }
+}
+
 .space {
   margin-left: 1rem;
   margin-right: 1rem;
