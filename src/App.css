@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #37332d;
+}
+
+button {
+  min-width: 10rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.heading {
+  text-align: center;
+  align-items: center;
+  margin-top: 3rem;
+  color: #eb3ff7;
+  font-size: 1.7rem;
+}
+
+.game-buttons {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.euromillions {
+  color: #de8c1f;
+}
+
+.euromillions button {
+  color: #de8c1f;
+}
+
+.lotto {
+  color: #38b44a;
+}
+
+.lotto button {
+  color: #38b44a;
+}
+
+.setForLife {
+  color: #c472e5;
+}
+
+.setForLife button {
+  color: #c472e5;
+}
+
+.thunderball {
+  color: #e9d510;
+}
+
+.thunderball button {
+  color: #e9d510;
+}
+
+.games {
+  width: 60vh;
+  margin: auto;
+}
+
+.game-results {
+  text-align: left;
+  margin-left: 5rem;
+}
+
+.space {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.fade-in {
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-numbers {
+  transition: opacity 1s ease;
+}
