@@ -8,7 +8,7 @@ const EuroMillions = () => {
   function handleClick() {
     let numbers = [];
 
-    while (numbers.length < 6) {
+    while (numbers.length < 5) {
       var nbr = Math.floor(Math.random() * 50) + 1;
       numbers.indexOf(nbr) === -1 && numbers.push(nbr);
     }

@@ -7,7 +7,7 @@ const Lotto = () => {
   function handleClick() {
     let numbers = [];
 
-    while (numbers.length < 7) {
+    while (numbers.length < 6) {
       var nbr = Math.floor(Math.random() * 59) + 1;
       numbers.indexOf(nbr) === -1 && numbers.push(nbr);
     }
